@@ -7,6 +7,7 @@ import java.io.*;
 public class Mainclass {
     public static void main(String args []) throws Exception{
         System.out.println("Изменения!!!");
+        System.out.println("3");
         File f=new File("test.txt");
         if (f.exists()){
             String name="Denis";
